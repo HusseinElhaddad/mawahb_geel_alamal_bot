@@ -1,4 +1,8 @@
 import telebot
+import os
+
+TOKEN = os.getenv("BOT_TOKEN")
+CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 
 # === CONFIG ===
 TOKEN = "8073950760:AAGIY4T6CtxELWBBHyB3mIZEt2xzXDRu5S8"
